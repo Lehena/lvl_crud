@@ -27,7 +27,7 @@
         </div>
 
         <div class="mb-3">
-            <label for="due" class="form-label">Saldo</label>
+            <label for="due" class="form-label">Saldos</label>
             <input class="form-control" name="due" type="number" placeholder="Saldo" step="0.01"value="{{ old('due') ?? @$client->due }}">
             @error('due')
             <p>{{$message}}</p>
